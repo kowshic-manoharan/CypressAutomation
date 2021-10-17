@@ -5,6 +5,7 @@ describe('Component Testing', function () {
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
         cy.get('#checkBoxOption2').should('be.enabled').check().should('have.value','option2')
         cy.get('#checkBoxOption2').should('be.enabled').uncheck().should('have.value','option2')
+        //select multiple check box
         cy.get('input[type="checkbox"]').click({ multiple: true })
     })
 })
