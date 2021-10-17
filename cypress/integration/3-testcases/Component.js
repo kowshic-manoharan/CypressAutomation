@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 describe('Component Testing', function () {
     it('CheckBox', function () {
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
